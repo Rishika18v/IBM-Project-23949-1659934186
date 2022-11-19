@@ -16,7 +16,7 @@ Member 1  : Ponmathi K
 Member 1  : Nivanjitha K
 
 
-Technologied Used :
+Technologies Used :
 
    Flask
    
