@@ -1,13 +1,12 @@
 # IBM-Project-23949-1659934186
 Plasma Donor Application
 
-## To visit our website, go to the following url...
-
-http://159.122.179.71:31555/login
-
-
 
 ## Project Completed...
+
+## To visit our website, go to the following url...
+
+ http://159.122.179.71:31555/login
 
 
 
@@ -18,9 +17,9 @@ http://159.122.179.71:31555/login
 
 Member 1  : Rishika M 
 
-Member 1  : Ponmathi K
+Member 2  : Ponmathi K
 
-Member 1  : Nivanjitha K
+Member 3  : Nivanjitha K
 
 
 ![This is an image](https://plasmaapp.s3.jp-tok.cloud-object-storage.appdomain.cloud/help.jpg )
