@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/login.css" />
+  </head>
+  <body>
+    <div class="login_main">
+      <div class="topnav" id="myTopnav">
+        <a href="/register">Register</a>
+        <a href="/login">Login</a>
+      </div>
+    <div class="login">
+      <h1 class="fact">Be the reason for someone's heartbeat</h1>
+      {{message}}
+      <form  method="post">
+        <div class="login-page">
+        <h1>Login</h1>
+        <input type="text" placeholder="Email" name="email"/>
+        <input
+          type="password"
+          placeholder="password"
+          name="password"/>
+        <input type="submit" class="submit" value="Login"/>
+      </div>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
+
+

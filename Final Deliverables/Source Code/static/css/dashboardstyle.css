@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+:root{
+    --nav-width: 110px;
+    --bg-color: #ffffff;
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --z-fixed: 100;
+}
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+  
+body{
+    position: relative;
+    margin: 0;
+    overflow-x:hidden;
+    padding: 2rem 0 0 6.75rem;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+  
+h1{
+    margin: 0;
+}
+  
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+a{
+    text-decoration: none;
+}
+
+.navigation{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25vh;
+  height: 100vh;
+  background-color: #c90000;
+  color: white;
+  padding: 1.5rem 0rem 2rem;
+  z-index: var(--z-fixed);
+  
+}
+
+.nav{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 200px;
+}
+
+.nav-symbol{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.nav_toggle{
+  font-size: 1.25rem;
+}
+
+.nav_logo{
+  color: var(--white-color);
+  font-weight: 700;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.nav_link{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .65rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  transition: .3s;
+  width: 25vh;
+  
+}
+
+.nav_link:hover{
+  background-color: white;
+  color: #c90000;
+  cursor: pointer;
+}
+
+.nav_icon{
+  font-size: 1.25rem;
+}
+
+.nav_name{
+  font-size: var(--small-font-size);
+
+}
+.head{
+  display: flex;
+  justify-content:space-around;
+}
+.input_1{
+  border-radius: 2px;
+  border: #FFF;
+  width: 95px;
+  border-bottom: 2px solid black;
+}
+input:focus {
+  outline-width: 0;
+}
+.search{
+  font-size: var(--small-font-size);
+  font-family: var(--body-font);
+  width: 90px;
+  border-radius: 5px;
+  background-color:#c90000;
+  color:white;
+  padding: 5px 5px;
+  border: none;
+}
+.search:hover{
+  cursor: pointer;
+}
+
+.row{
+  display:flex;
+  flex-wrap: wrap;  
+  margin-left: 30vh;
+}
+
+.column{
+  padding: 10px 10px;
+}
+
+.card{
+  box-shadow: -5px 5px 30px 0 rgba(0, 0, 0, 0.122);
+  padding: 40px;
+  font-size: 20px;
+  text-align: right;
+  border-radius: 5px;
+  background-color: #ffffff;
+  align-items: baseline;
+  width: 300px;
+}
+
+.card h1{
+  color: #c90000;;
+}
+.card:hover{
+  color: white;
+  background-color: #c90000;
+  transition: .4s;
+  cursor: pointer;
+}
+.card:hover h1{
+  color:white;
+  transition: .4s;
+}
+.card:hover .numbtn{
+  background-color: white;
+  color: #c90000;
+  font-weight: 800;
+}
+.numbtn{
+  font-size: var(--small-font-size);
+  font-family: var(--body-font);
+  width: 90px;
+  border-radius: 5px;
+  background-color:#c90000;
+  color:white;
+  padding: 5px 5px;
+  border: none;
+}
+.request{
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  color: #c90000;
+}
+
+input {
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input-group{
+  width: 100%;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.grp{
+  display:flex;
+  align-items: center;
+}
+.col_2
+{
+  margin-left: 20px;
+}
+.card_2{
+  border-radius: 3px;
+  margin-top: 8vh;
+  box-shadow: 15px 10px 20px 0px rgba(0, 0, 0, 0.233);
+  margin-left: 35vh;
+  width: 65%;
+}
+.card_2 .card-heading{
+  background: url("image.jpg") center/cover no-repeat;
+  width: 38vh;
+  display: table-cell;
+}
+.select{
+  width: 100%;
+  border: none;
+  font-family: var(--body-font);
+  font-size: var(--small-font-size);
+}
+.select:focus {
+  outline-width: 0;
+}
+.card_2 .card-body {
+  display: table-cell;
+  padding: 80px 90px;
+  padding-bottom: 88px;
+}
+::placeholder{
+  color:black;
+}
+.profile_h1{
+  color:#c90000;
+  
+}
+.card_3{
+  width: 40%;
+  box-shadow: -6px 12px 20px 0px rgba(0, 0, 0, 0.233);
+  padding: 25px 20px;
+  border-radius: 8px;
+  margin-left:60vh;
+  margin-top: 15vh;
+}
+.align{
+  display: inline-block;
+  
+}
+.login_main{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/005/424/812/original/volunteers-donating-blood-blood-donor-charity-concept-world-blood-donor-day-health-care-for-banner-poster-card-ui-web-landing-page-template-for-blood-bank-or-hospital-flat-illustration-free-vector.jpg);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 0;
+}
+
+.login-page{
+    width: 360px;
+    padding: 45px 75px;
+    margin: 0 auto 100px;
+    background: white;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.submit{
+  background-color: #c90000;
+  color: white;
+}
+
+.login{
+    width: 600px;
+    padding: 5% 2% 3% 55%;
+    margin: left;
+}
+
+.login-page input{
+    outline: 0;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.fact{
+    color: #c90000;  
+}
+  
+  .topnav{
+    display: flex;
+    background-color: #c90000;
+    width: 100%;
+    align-items: center;
+    justify-content:flex-start;
+  }
+
+  .topnav a{
+    color: #ffffff;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover{
+    color: #c90000;
+    background-color: #ffffff;
+    transition: .4s;
+    cursor: pointer;
+  }
+
+
+
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}  */
+
+
+/* .collapse_link{
+  justify-self: flex-end;
+  transition: .5s;
+}
+  
+.collapse_menu{
+  display: none;
+  padding: .75rem 2.25rem;
+}
+  
+.collapse_sublink{
+  color: var(--sub-color);
+  font-size: var(--small-font-size);
+}
+  
+/* .collapse_sublink:hover{
+  color: var(--white-color);
+} */
+
+/* .showCollapse{
+  display: block;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}  */
