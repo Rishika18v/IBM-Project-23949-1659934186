@@ -4,9 +4,9 @@ Plasma Donor Application
 
 ## Project Completed...
 
-## To visit our website, go to the following url...
+## To visit our project website, go to the following url...
 
- http://159.122.179.71:31555/login
+## http://159.122.179.71:31555/login
 
 
 
