@@ -4,10 +4,12 @@ Plasma Donor Application
 
 ## Project Completed...
 
-## To visit our project website, go to the following url...
+## To visit our project website, please go to the following url...
+ http://159.122.179.71:31555/login
 
-## http://159.122.179.71:31555/login
 
+##Project demo video link...
+https://drive.google.com/file/d/1L2qNMR0YJ77bZSAGptNCS7TlBmqt30pu/view?usp=sharing
 
 
 **Team ID : PNT2022TMID04437**
